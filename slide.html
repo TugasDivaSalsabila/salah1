@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="slide.css">
+
+        <style> 
+            .dark-mode {
+                background-image: url('bck9.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+    </style>
+    </head>
+    <body class="dark-mode" id="mode">
+        <table>
+        <div  class="item">
+            <div class="container">
+                <img src="porto1.jpg">
+            </div>
+            <div class="container1">
+                <center><h3>HI GUYS!</h3>
+                    <br>
+
+                My name Is Diva Salsabila<br>
+                I was born on<br>
+                    20th of May 2005<br>
+                    Padangsidimpuan
+                </center>
+            </div>
+        </div>
+
+        <div class="item1">
+            <div class="container2">
+                <center><a href="porto.html"> ← </a></center>
+            </div>
+            <div class="container3">
+                <center><a href="pro.html"> → </a></center>
+            </div>
+        </div>
+        
+        <div class="item2">
+            <button type="button" onclick="darkMode()">Darkmode</button>
+            </div>
+
+        </table>
+
+        <script>
+            var body = document.getElementById('mode');
+            
+            function darkMode() {
+                if(body.classList.contains('dark-mode')) {
+                    body.classList.remove('dark-mode')
+                } else {
+                    body.classList.add('dark-mode')
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="porto.css">
+
+<style> 
+        .dark-mode {
+            background-image: url('bck5.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+</style>
+</head>
+<body class="dark-mode" id="mode">
+
+        <div class="item">
+            <div class="container"
+        <center>
+        <p>HI EVERYONE!<br>
+        WELCOME TO DIVA'S PORTOFOLIO</p></center>
+            </div>
+            <div class="container1">
+                <center><a href="slide.html">Tap Here</a></center>
+            </div>
+        </div>
+
+        <div class="item1">
+        <button type="button" onclick="darkMode()">Darkmode</button>
+        </div>
+
+
+        <script>
+            var body = document.getElementById('mode');
+            
+            function darkMode() {
+                if(body.classList.contains('dark-mode')) {
+                    body.classList.remove('dark-mode')
+                } else {
+                    body.classList.add('dark-mode')
+                }
+            }
+        </script>
+</body>
+</html>

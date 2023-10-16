@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="ketiga.css">
+
+        <style> 
+            .dark-mode {
+                background-image: url('bck8.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+    </style>
+    </head>
+
+    <body class="dark-mode" id="mode">
+        <div class="item">
+            <div class="container">
+                <h3>About Me</h3>
+            </div>
+        </div>
+
+        <div class="item1">
+            <div class="container1">
+                <center>History of Education<br>
+                    SD : SDN 200112 Panyanggar<br>
+                    SMP : SMP S Nurul Ilmi Padangsidimpuan<br>
+                    SMA : SMA S Nurul Ilmi Padangsidimpuan<br>
+                </center>
+            </div>
+        </div>
+        <div class="item2">
+            <div class="container2">
+                <center>Interest & Talent<br>
+                    Interest :<br>
+                    English<br>
+                    Talent :<br>
+                    Not Yet Found<br>
+                </center>
+            </div>
+        </div>
+        <div class="item3">
+            <div class="container3">
+                <center>
+                    Height :<br>
+                    157 cm<br>
+                    Weight :<br>
+                    43KG
+                </center>
+            </div>
+        </div>
+
+        <div class="item4">
+            <div class="container4">
+                <center><a href="https://instagram.com/diva_sallsaa?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==" target="https://instagram.com/diva_sallsaa">Sosial Media</a></center>
+            </div>
+        </div>
+        <div class="item5">
+            <div class="container5">
+                <center><a href="https://wa.me/6282163976802" target="https://wa.me">Kontak</a></center>
+            </div>
+        </div>
+
+        <div class="item6">
+            <div class="container6">
+                <center><a href="pro.html"> ← </a></center>
+            </div>
+        </div>
+        <div class="item7">
+            <div class="container7">
+                <center><a href="porto.html"> → </a></center>
+            </div>
+        </div>
+
+        <div class="item8">
+            <button type="button" onclick="darkMode()">Darkmode</button>
+            </div>
+     
+        <script>
+            var body = document.getElementById('mode');
+            
+            function darkMode() {
+                if(body.classList.contains('dark-mode')) {
+                    body.classList.remove('dark-mode')
+                } else {
+                    body.classList.add('dark-mode')
+                }
+            }
+        </script>
+    </body>
+</html>

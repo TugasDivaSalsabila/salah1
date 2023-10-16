@@ -1,0 +1,139 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(24, 23, 23);
+    width: 5cm;
+    margin-left: 43%;
+    border-radius: 25%;
+}
+.container {
+    font-size: large;
+    font-family: 'Caveat', cursive;
+}
+
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(24, 23, 23);
+    margin: 10px;
+    border-radius: 25%;
+}
+.container1 {
+    display: flex;
+    margin-right: 2%;
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(24, 23, 23);
+    margin: 10;
+    border-radius: 25%;
+}
+.container2 {
+    display: flex;
+    margin-right: 2%;
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(24, 23, 23);
+    margin: 10px;
+    border-radius: 25%;
+}
+.container3 {
+    display: flex;
+    margin-right: 2%;
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(24, 23, 23);
+    margin: 10px;
+    border-radius: 25%;
+    width: 5cm;
+    margin-left: 43%;
+}
+.container4{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(24, 23, 23);
+    margin: 10px;
+    border-radius: 25%;
+    width: 5cm;
+    margin-left: 43%;
+}
+.container5{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 3px solid rgb(24, 23, 23);
+    border-radius: 25%;
+    width: 3cm;
+    margin-left: 46%;
+}
+
+.container6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    font-size: large;
+}
+.item7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 3px solid rgb(24, 23, 23);
+    border-radius: 25%;
+    width: 3cm;
+    margin-left: 46%;
+}
+.container7 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: large;
+}
+
+.item8 {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 3cm;
+     margin-left: 85%;
+     margin-top: 20%;
+  }

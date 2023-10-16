@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="pro.css">
+
+        <style> 
+            .dark-mode {
+                background-image: url('bck7.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                color: white;
+            }
+    </style>
+    </head>
+    <body class="dark-mode" id="mode">
+        <table>
+            <div  class="item">
+                <div class="container">
+                    <img src="pro.png">
+                </div>
+                <div class="container1">
+                    <center>
+                        A student at University of North Sumatra<br>
+                        Fasilkom TI<br>
+                        Teknologi Informasi<br>
+                        2023
+                    </center>
+                </div>
+            </div>
+    
+            <div class="item1">
+                <div class="container2">
+                    <center><a href="slide.html"> ← </a></center>
+                </div>
+                <div class="container3">
+                    <center><a href="ketiga.html"> → </a></center>
+                </div>
+            </div>
+
+            <div class="item2">
+                <button type="button" onclick="darkMode()">Darkmode</button>
+                </div>
+            
+            </table>
+
+            <script>
+                var body = document.getElementById('mode');
+                
+                function darkMode() {
+                    if(body.classList.contains('dark-mode')) {
+                        body.classList.remove('dark-mode')
+                    } else {
+                        body.classList.add('dark-mode')
+                    }
+                }
+            </script>
+    </body>
+</html>

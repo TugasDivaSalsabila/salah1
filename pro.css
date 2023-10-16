@@ -1,0 +1,54 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin: 10px;
+    margin-right: 15%;
+    margin-top: 15%;
+}
+img {
+    height: 8cm;
+    width: 8cm;
+    border-radius: 20%;
+}
+
+.container1 {
+    margin: 10px;
+    margin-top: 15%;
+    font-family: 'Caveat', cursive;;
+    font-size: large;
+}
+.item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 65%;
+    width: 3cm;
+}
+.container2 {
+    margin: 10px;
+    margin-top: 35%;
+    margin-left: 5%;
+    background-color: rgb(241, 241, 242);
+    width: 1cm;
+    font-size: large;
+}
+.container3 {
+    margin: 10px;
+    margin-top: 35%;
+    margin-left: 1%;
+    background-color: rgb(241, 241, 242);
+    width: 1cm;
+    font-size: large;
+}
+
+.item2 {
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 3cm;
+     margin-left: 85%;
+     margin-top: 20%;
+  }

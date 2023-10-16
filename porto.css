@@ -1,0 +1,25 @@
+ .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container {
+    font-family: 'Caveat', cursive;
+    font-size: xx-large;
+    margin-top: 20%;
+   
+ }
+ .container1 {
+    font-family: 'Caveat', cursive;
+    margin-top: 29%;
+    background-color: rgb(241, 241, 242);
+ }
+
+ .item1 {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3cm;
+    margin-left: 85%;
+    margin-top: 20%;
+ }
